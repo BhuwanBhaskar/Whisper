@@ -1,0 +1,55 @@
+<resources>>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+
+
+        <!--
+        <item name="windowActionBar">true</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        -->
+        <item name="android:editTextBackground">@drawable/apptheme_edit_text_holo_light</item>
+
+        <item name="android:buttonStyle">@style/ButtonAppTheme</item>
+
+        <item name="android:imageButtonStyle">@style/ImageButtonAppTheme</item>
+
+        <item name="android:progressBarStyleHorizontal">@style/ProgressBarAppTheme</item>
+        <item name="android:actionOverflowButtonStyle">@style/OverFlowMenu</item>
+
+        <item name="android:listViewStyle">@style/AppTheme.ListViewStyle</item>
+        <item name="android:gridViewStyle">@style/AppTheme.ListViewStyle.GridView</item>
+
+    </style>
+
+    <style name="AppTheme.ListViewStyle.GridView">
+        <item name="android:padding">16dp</item>
+    </style>
+
+    <style name="AppTheme.ListViewStyle">
+        <item name="android:background">@color/light_purple_background</item>
+
+    </style>
+
+    <style name="OverFlowMenu" parent="android:Widget.ActionButton.Overflow">
+        <item name="android:src">@drawable/ic_menu_overflow</item>
+    </style>
+
+    <style name="ButtonAppTheme" parent="android:Widget.Holo.Light.Button">
+        <item name="android:background">@drawable/custom_button</item>
+    </style>
+
+    <style name="ImageButtonAppTheme" parent="android:Widget.Holo.Light.ImageButton">
+        <item name="android:background">@drawable/apptheme_btn_default_holo_light</item>
+    </style>
+
+    <style name="ProgressBarAppTheme" parent="android:Widget.Holo.Light.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/apptheme_progress_horizontal_holo_light
+        </item>
+        <item name="android:indeterminateDrawable">
+            @drawable/apptheme_progress_indeterminate_horizontal_holo_light
+        </item>
+    </style>
+
+</resources>
